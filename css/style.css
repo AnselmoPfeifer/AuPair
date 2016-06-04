@@ -38,6 +38,13 @@ body {
     margin-right: auto;
     width: 60%;
 }
+.collection a.collection-item{
+    color: #191919;
+    padding: 8px;
+}
+.collection a.collection-item:not(.active):hover{
+    background: #f7f7f7;
+}
 .facebook{
     padding-top: 5px;
 
