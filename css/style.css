@@ -17,6 +17,10 @@ body {
     width: 60%;
     padding-top: 10px;
 }
+.container .row{
+    margin-left: 0;
+    margin-right: 0;
+}
 .logo{
     display: block;
     margin-left: auto;
