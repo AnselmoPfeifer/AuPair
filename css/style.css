@@ -18,29 +18,25 @@ body {
     padding-top: 10px;
 }
 .logo{
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 60%;
 }
 .facebook{
     padding-top: 5px;
-    /*background-color:#26A69A;*/
 
 }
 .facebook h4{
     text-align: left;
     font-size: 18px;
 }
-.facebook img{
-    background-image: url("images/facebook.png");
+.login{
     text-align: center;
-    width: 250px;
-    opacity: 0.5;
 }
-.facebook img:hover{
-    /*background-color: #3B5998;*/
-    opacity: 1;
+.cadastro{
+    text-align: center;
 }
-
 @media (max-width: 600px) {
     .container{
         margin: auto;
@@ -48,7 +44,9 @@ body {
         padding: 10px;
     }
     .logo{
-        margin: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 60%;
     }
     .facebook{
