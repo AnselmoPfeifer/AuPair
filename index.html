@@ -8,7 +8,6 @@
     <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 </head>
@@ -21,10 +20,17 @@
        </div>
         <input type="text" class="" name="login" placeholder="Login" id="login">
         <input type="password" class="" name="password" placeholder="Senha" id="password">
-        <input class="btn waves-effect waves-light" type="button" value="Login">
+        <input class="btn waves-effect waves-light" type="button" value="Fazer login">
         <p>
         <div class="facebook center">
-            <img src="images/facebook.png"/>
+            <a href="#">
+                <!--<p>-->
+                    <!--<i class="fa fa-facebook-official fa-3x ">-->
+                    <!--</i>-->
+                <!--</p>-->
+                <a class="tooltipped fa fa-facebook-official fa-4x"
+                   data-position="top" data-delay="50" data-tooltip="Entrar com facebook"></a>
+            </a>
                 <br style="clear: both;" />
         </div>
         </p>
@@ -33,5 +39,21 @@
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript">
+    function showToast(message, duration){
+        Materialize.toast(message, duration);
+    }
+    function showToast1(message, duration){
+        Materialize.toast('<i>'+ message + '</i>', duration);
+    }
+    function showToast2(message, duration){
+        Materialize.toast(message, duration, 'rounded');
+    }
+    function showToast3(message, duration){
+        Materialize.toast('Hello World!', duration, '', function toastCompleted(){
+            alert('Toast dismissed!');
+        });
+    }
+</script>
 </body>
 </html>
