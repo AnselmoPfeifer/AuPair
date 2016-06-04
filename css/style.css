@@ -1,0 +1,25 @@
+.container{
+    margin: auto;
+    width: 60%;
+    padding-top: 10px;
+}
+.logo{
+    margin: auto;
+    width: 60%;
+}
+.facebook{
+    padding-top: 5px;
+    background-color:#42A5F5;
+    opacity: 0.5;
+}
+.facebook h4{
+    text-align: left;
+    font-size: 18px;
+}
+.facebook img{
+    text-align: center;
+}
+.facebook:hover{
+    background-color: #3B5998;
+    opacity: 0.5;
+}
