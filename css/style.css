@@ -49,6 +49,9 @@ body {
 .collection a.collection-item:not(.active):hover{
     background: #f7f7f7;
 }
+nav ul a{
+    padding: 0 0 0 10px;
+}
 .login-button{
     margin-bottom: 10px;
     text-align: center;
