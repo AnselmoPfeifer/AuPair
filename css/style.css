@@ -53,7 +53,7 @@ body {
 .cadastro{
     text-align: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .container{
         margin: auto;
         width: 100%;
@@ -65,15 +65,5 @@ body {
         margin-right: auto;
         width: 80%;
     }
-    .facebook{
 
-    }
-    .facebook h4{
-        text-align: left;
-        font-size: 1em;
-    }
-
-    .facebook:hover{
-        opacity: 1;
-    }
 }
