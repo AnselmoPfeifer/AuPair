@@ -60,15 +60,56 @@ nav ul a{
 nav .brand-logo{
     margin-top: 10px;
 }
+.imagem-sobre {
+    width: 75%;
+    padding-top: 20px;
+}
+.sobre{
+    color: #03A9F4;
+    text-align: center;
+}
+
 @media only screen and (max-width: 992px){
     nav .brand-logo{
         left: 15%;
     }
 }
- 
+.botao-index{
+    width: 40%;
+}
+.footer{
+    border-top: solid;
+    border-top-color: #03A9F4;
+    padding: 7px;
+    font-size: 18px;
+    text-align: right;
+    color: #03A9F4;
+}
 @media (max-width: 400px) {
     .logo{
         width: 150px;
         margin-top: 10px;
+    }
+    .botao-index{
+        width: 70%;
+    }
+    .imagem-sobre{
+        width: 60%;
+        padding-top: 20px;
+    }
+    .sobre{
+        color: #03A9F4;
+        text-align: center;
+    }
+    .footer{
+        border-top: solid;
+        border-top-color: #03A9F4;
+        padding: 7px;
+        font-size: 18px;
+        text-align: center;
+        color: #03A9F4;
+    }
+    .imagem-footer{
+        padding-top: 10px;
     }
 }
