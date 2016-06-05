@@ -23,11 +23,6 @@ body {
     font-family: Arial, helvetica, sans-serif;
     line-height: 1.4;
 }
-.container{
-    margin: auto;
-    width: 70%;
-    padding-top: 10px;
-}
 .container .row{
     margin-left: 0;
     margin-right: 0;
@@ -36,7 +31,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 240px;
 }
 
 .collection a.collection-item{
@@ -46,24 +41,13 @@ body {
 .collection a.collection-item:not(.active):hover{
     background: #f7f7f7;
 }
-.login{
+.login-button{
     margin-bottom: 10px;
     text-align: center;
 }
-.cadastro{
-    text-align: center;
-}
 @media (max-width: 400px) {
-    .container{
-        margin: auto;
-        width: 100%;
-        padding: 10px;
-    }
     .logo{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
+        width: 150px;
     }
 
 }
