@@ -15,28 +15,14 @@
 </head>
 
 <body>
-      <script type="text/javascript">
-         $(document).ready(function(){
-                $(".button-collapse").sideNav({
-                menuWidth: 240, // Default is 240
-                edge: 'left', // Choose the horizontal origin
-                closeOnClick: false // Closes side-nav on <a> clicks, useful for Angular/Meteor
-                });
-          });
-      </script>
       <nav>
           <div class="nav-wrapper teal lighten-2">
               <div class="container">
-                  <a href="index.html" class="brand-logo"><img class="brand-logo" src="images/logo.png" alt="Eu Cuido - Contrate aqui uma babá" title=""></a>
-                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                  <ul class="right hide-on-med-and-down">
+                  <a href="index.html" class="brand-logo"><img class="responsive-img" src="images/logo.png" alt="Eu Cuido - Contrate aqui uma babá" title="" width="60"></a>
+                  
+                  <ul class="right">
                       <li><a href="mensagem.html"><i class="material-icons left">comment</i></a></li>
                       <li><a href="mensagem.html"><i class="material-icons left">perm_device_information</i></a></li>
-                      <li><a href="mensagem.html"><i class="material-icons left">person</i></a></li>
-                  </ul>
-                  <ul class="side-nav" id="mobile-demo">
-                      <li><a href="mensagem.html">Mensagens</a></li>
-                      <li><a href="mensagem.html">Notificações</a></li>
                   </ul>
               </div>
           </div>
@@ -45,9 +31,10 @@
         <div class="row">
             <form class="col s12">
                 <div class="row">
+                    <h3 class="perfil center">Encontre sua Baba</h3>
                     <div class="input-field col s12">
                         <input class="" id="input_text" type="text" length="20" maxlength="20">
-                        <label class="" for="input_text">Econtro uma babá</label>
+                        <label class="" for="input_text">Buscar por nome</label>
                     </div>
                 </div>
 
