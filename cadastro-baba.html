@@ -40,6 +40,15 @@
             </div>
             <div id="cadastro" class="col s12">
                 <div class="row">
+                    <div class="file-field input-field col s12">
+                    <div class="btn">
+                        <span>Selecione a Foto</span>
+                        <input type="file">
+                    </div>
+                    <div class="file-path-wrapper">
+                        <input class="file-path validate" type="text">
+                    </div>
+                    </div>
                     <div class="input-field col s12">
                         <i class="material-icons prefix">account_circle</i>
                         <input id="icon_prefix" type="text" class="validate">
@@ -131,13 +140,23 @@
                 </div>
                 
                 <div class="input-field col s12">
-                    <input placeholder="Digite sua experiencia com criança" id="experienciaCuidador" type="text" class="validate">
-                    <label for="experienciaCuidador">*Possui quantos anos de experiência com crianças?</label>
+                    <input placeholder="Referencias" id="referencia" type="text" class="validate">
+                    <label for="referencia">Referencias (Min. 2 - Ex: Voluntariado..)</label>
+                </div>
+                
+                <div class="input-field col s12">
+                    <input placeholder="Referencias" id="experienciaCr" type="text" class="validate">
+                    <label for="experienciaCr">Conte como foi sua experiencia com crianças</label>
+                </div>
+                
+                <div class="input-field col s12">
+                    <input placeholder="Digite seu diferencial" id="experienciaCuidador" type="text" class="validate">
+                    <label for="experienciaCuidador">Qual seu diferencial para lidar com crianças?</label>
                 </div>
                 
                 <div class="input-field col s12">
                     <input placeholder="Digite o Preço" id="precoHora" type="text" class="validate">
-                    <label for="precoHora">Preço por Hora</label>
+                    <label for="precoDia">Preço por Dia</label>
                 </div>
 
                 <div class="input-field col s12">
@@ -160,6 +179,35 @@
                             <label for="dintegral">Integral</label>
                         </li>
                     </ul>
+                </div>
+                
+                <div class="input-field col s12">
+                    <span>Disponibilidade (Dia Semana)</span>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="sf" />
+                            <label for="sf">Segunda-Feira</label>
+                        </li>
+                        <li>
+                             <input type="checkbox" id="tf" />
+                             <label for="tf">Terça-Feira</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="qf" />
+                            <label for="qf">Quarta-Feira</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="qff" />
+                            <label for="qff">Quinta-Feira</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="qff" />
+                            <label for="qff">Sexta-Feira</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12" style="margin-top:15px;">
+                    <p>Se você possui carta de recomendação a respeito do seu trabalho, por favor, encaminhe para eu.cuido@outlook.com</p>
                 </div>
  
             </div>
